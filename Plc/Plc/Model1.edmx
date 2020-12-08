@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ATRS_QUALModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CODE_RECORED">
+          <Key>
+            <PropertyRef Name="INT_SQ" />
+          </Key>
+          <Property Name="RECORED_TIME" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="CAR_TYPE" Type="nvarchar(max)" />
+          <Property Name="STATION_SQ" Type="nvarchar(max)" />
+          <Property Name="CHR_HYP" Type="nvarchar(max)" />
+          <Property Name="INT_SEQ" Type="bigint" Nullable="false" />
+          <Property Name="INT_KAISOU_LVL" Type="int" Nullable="false" />
+          <Property Name="CHR_HYP_PARN" Type="nvarchar(max)" />
+          <Property Name="CHR_HYP_PS" Type="nvarchar(max)" />
+          <Property Name="CHR_NUB_HYP_LOT" Type="nvarchar(max)" />
+          <Property Name="NUM_TORIGIKI_SU" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="INT_NUB_HIKITORI_KANB" Type="int" Nullable="false" />
+          <Property Name="NUM_USED" Type="int" Nullable="false" />
+          <Property Name="NUM_SUR_USE_HYP_PARN" Type="int" Nullable="false" />
+          <Property Name="NUM_SUR_USE_HYP_PS" Type="int" Nullable="false" />
+          <Property Name="CHR_KBN_ERROR" Type="nvarchar(max)" />
+          <Property Name="INT_SQ" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="ATRS_QUALModelStoreContainer">
+          <EntitySet Name="CODE_RECORED" EntityType="Self.CODE_RECORED" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ATRS_QUALModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CODE_RECORED">
+          <Key>
+            <PropertyRef Name="INT_SQ" />
+          </Key>
+          <Property Name="RECORED_TIME" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="CAR_TYPE" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="STATION_SQ" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CHR_HYP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="INT_SEQ" Type="Int64" Nullable="false" />
+          <Property Name="INT_KAISOU_LVL" Type="Int32" Nullable="false" />
+          <Property Name="CHR_HYP_PARN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CHR_HYP_PS" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CHR_NUB_HYP_LOT" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NUM_TORIGIKI_SU" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="INT_NUB_HIKITORI_KANB" Type="Int32" Nullable="false" />
+          <Property Name="NUM_USED" Type="Int32" Nullable="false" />
+          <Property Name="NUM_SUR_USE_HYP_PARN" Type="Int32" Nullable="false" />
+          <Property Name="NUM_SUR_USE_HYP_PS" Type="Int32" Nullable="false" />
+          <Property Name="CHR_KBN_ERROR" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="INT_SQ" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityContainer Name="ATRS_QUALEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CODE_RECORED" EntityType="Self.CODE_RECORED" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ATRS_QUALModelStoreContainer" CdmEntityContainer="ATRS_QUALEntities">
+          <EntitySetMapping Name="CODE_RECORED">
+            <EntityTypeMapping TypeName="ATRS_QUALModel.CODE_RECORED">
+              <MappingFragment StoreEntitySet="CODE_RECORED">
+                <ScalarProperty Name="RECORED_TIME" ColumnName="RECORED_TIME" />
+                <ScalarProperty Name="CAR_TYPE" ColumnName="CAR_TYPE" />
+                <ScalarProperty Name="STATION_SQ" ColumnName="STATION_SQ" />
+                <ScalarProperty Name="CHR_HYP" ColumnName="CHR_HYP" />
+                <ScalarProperty Name="INT_SEQ" ColumnName="INT_SEQ" />
+                <ScalarProperty Name="INT_KAISOU_LVL" ColumnName="INT_KAISOU_LVL" />
+                <ScalarProperty Name="CHR_HYP_PARN" ColumnName="CHR_HYP_PARN" />
+                <ScalarProperty Name="CHR_HYP_PS" ColumnName="CHR_HYP_PS" />
+                <ScalarProperty Name="CHR_NUB_HYP_LOT" ColumnName="CHR_NUB_HYP_LOT" />
+                <ScalarProperty Name="NUM_TORIGIKI_SU" ColumnName="NUM_TORIGIKI_SU" />
+                <ScalarProperty Name="INT_NUB_HIKITORI_KANB" ColumnName="INT_NUB_HIKITORI_KANB" />
+                <ScalarProperty Name="NUM_USED" ColumnName="NUM_USED" />
+                <ScalarProperty Name="NUM_SUR_USE_HYP_PARN" ColumnName="NUM_SUR_USE_HYP_PARN" />
+                <ScalarProperty Name="NUM_SUR_USE_HYP_PS" ColumnName="NUM_SUR_USE_HYP_PS" />
+                <ScalarProperty Name="CHR_KBN_ERROR" ColumnName="CHR_KBN_ERROR" />
+                <ScalarProperty Name="INT_SQ" ColumnName="INT_SQ" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

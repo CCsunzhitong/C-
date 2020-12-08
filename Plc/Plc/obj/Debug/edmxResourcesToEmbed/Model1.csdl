@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ATRS_QUALModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CODE_RECORED">
+    <Key>
+      <PropertyRef Name="INT_SQ" />
+    </Key>
+    <Property Name="RECORED_TIME" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="CAR_TYPE" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="STATION_SQ" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CHR_HYP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="INT_SEQ" Type="Int64" Nullable="false" />
+    <Property Name="INT_KAISOU_LVL" Type="Int32" Nullable="false" />
+    <Property Name="CHR_HYP_PARN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CHR_HYP_PS" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CHR_NUB_HYP_LOT" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NUM_TORIGIKI_SU" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="INT_NUB_HIKITORI_KANB" Type="Int32" Nullable="false" />
+    <Property Name="NUM_USED" Type="Int32" Nullable="false" />
+    <Property Name="NUM_SUR_USE_HYP_PARN" Type="Int32" Nullable="false" />
+    <Property Name="NUM_SUR_USE_HYP_PS" Type="Int32" Nullable="false" />
+    <Property Name="CHR_KBN_ERROR" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="INT_SQ" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityContainer Name="ATRS_QUALEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CODE_RECORED" EntityType="Self.CODE_RECORED" />
+  </EntityContainer>
+</Schema>

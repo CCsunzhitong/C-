@@ -1,0 +1,118 @@
+2020-09-21 16:52:30.1609 | com线程 
+2020-09-21 16:52:30.2029 | 线程System.IO.IOException: 端口“COM1”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 Plc.Program.Com_Main() 位置 E:\github\C-com\Plc\Plc\Program.cs:行号 87 
+2020-09-21 16:53:24.0379 | 线程开始！ 
+2020-09-21 16:53:24.0379 | com线程 
+2020-09-21 16:53:44.7405 | com读取线程 
+2020-09-21 16:53:44.8418 | 总成条码471000116700000L80831192250026 
+2020-09-21 16:53:44.8418 | PDA线程 
+2020-09-21 16:56:16.9400 | 线程开始！ 
+2020-09-21 16:56:16.9400 | com线程 
+2020-09-21 16:56:27.2005 | com读取线程 
+2020-09-21 16:56:27.3027 | 总成条码471000116700000L80831192250029 
+2020-09-21 16:56:27.3027 | PDA线程 
+2020-09-21 16:56:27.4656 | strCode 
+2020-09-21 16:56:58.0075 | 线程开始！ 
+2020-09-21 16:56:58.0075 | com线程 
+2020-09-21 16:57:05.6078 | com读取线程 
+2020-09-21 16:57:05.7099 | 总成条码471000116700000L80831192250029 
+2020-09-21 16:57:05.7099 | PDA线程 
+2020-09-21 16:57:05.8728 | L80 
+2020-09-21 16:58:25.3267 | com读取线程 
+2020-09-21 16:58:25.4279 | 总成条码471000116700000L80831192250029 
+2020-09-21 16:58:25.4279 | PDA线程 
+2020-09-21 16:58:25.4519 | L80 
+2020-09-21 17:07:49.6485 | 线程开始！ 
+2020-09-21 17:07:49.6485 | XML读取线程 
+2020-09-21 17:11:09.7727 | 线程开始！ 
+2020-09-21 17:11:09.7727 | com线程 
+2020-09-21 17:11:09.7727 | plc线程 
+2020-09-21 17:11:09.7837 | XML读取线程 
+2020-09-21 17:23:45.2418 | 线程开始！ 
+2020-09-21 17:23:45.2418 | com线程 
+2020-09-21 17:23:45.2418 | plc线程 
+2020-09-21 17:23:45.2538 | XML读取线程 
+2020-09-21 17:28:03.1571 | plc线程 
+2020-09-21 17:28:03.1671 | XML读取线程 
+2020-09-21 17:28:26.7921 | 读取成功 
+2020-09-21 17:46:55.0727 | 线程开始！ 
+2020-09-21 17:46:55.0727 | com线程 
+2020-09-21 17:46:55.0837 | plc线程 
+2020-09-21 17:46:55.0837 | XML读取线程 
+2020-09-21 17:47:01.9875 | 线程开始！ 
+2020-09-21 17:47:01.9875 | com线程 
+2020-09-21 17:47:01.9875 | plc线程 
+2020-09-21 17:47:01.9875 | XML读取线程 
+2020-09-21 17:48:43.1153 | 线程开始！ 
+2020-09-21 17:48:43.1153 | com线程 
+2020-09-21 17:48:43.1273 | plc线程 
+2020-09-21 17:48:43.1273 | XML读取线程 
+2020-09-21 17:48:43.1273 | 未能找到文件“C:\XMLFile1.xml”。 
+2020-09-21 17:55:14.6506 | 线程开始！ 
+2020-09-21 17:55:14.6506 | com线程 
+2020-09-21 17:55:14.6606 | plc线程 
+2020-09-21 17:55:14.6606 | XML读取线程 
+2020-09-21 17:55:14.6606 | 未能找到文件“C:\XMLFile1.xml”。 
+2020-09-21 17:55:14.6786 | 线程System.UnauthorizedAccessException: 对端口“COM4”的访问被拒绝。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 Plc.Program.Com_Main() 
+2020-09-21 17:55:35.9283 | 线程开始！ 
+2020-09-21 17:55:35.9283 | com线程 
+2020-09-21 17:55:35.9283 | plc线程 
+2020-09-21 17:55:35.9413 | XML读取线程 
+2020-09-21 17:55:35.9413 | 未能找到文件“C:\XMLFile1.xml”。 
+2020-09-21 17:55:35.9413 | 线程System.UnauthorizedAccessException: 对端口“COM4”的访问被拒绝。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 Plc.Program.Com_Main() 
+2020-09-21 17:57:21.3650 | 线程开始！ 
+2020-09-21 17:57:21.3650 | com线程 
+2020-09-21 17:57:21.3650 | plc线程 
+2020-09-21 17:57:21.3650 | XML读取线程 
+2020-09-21 17:57:21.3780 | E:\github\C-com\Plc\Plc\bin\Debug\ 
+2020-09-21 17:57:21.3780 | 加载成功 
+2020-09-21 17:57:43.4782 | com读取线程 
+2020-09-21 17:57:43.5792 | 总成条码471000116700000L80831192250029 
+2020-09-21 17:57:43.5792 | PDA线程 
+2020-09-21 17:57:43.7541 | L80 
+2020-09-21 18:08:57.3497 | 线程开始！ 
+2020-09-21 18:08:57.3497 | com线程 
+2020-09-21 18:08:57.3497 | plc线程 
+2020-09-21 18:08:57.3616 | XML读取线程 
+2020-09-21 18:08:57.3616 | E:\github\C-com\Plc\Plc\bin\Debug\ 
+2020-09-21 18:08:57.3616 | 加载成功 
+2020-09-21 18:09:02.2788 | com读取线程 
+2020-09-21 18:09:02.3797 | 总成条码471000116700000L80831192250029 
+2020-09-21 18:09:02.3797 | PDA线程 
+2020-09-21 18:09:02.5556 | L80 
+2020-09-21 18:10:07.6276 | 线程开始！ 
+2020-09-21 18:10:07.6276 | com线程 
+2020-09-21 18:10:07.6276 | plc线程 
+2020-09-21 18:10:07.6446 | XML读取线程 
+2020-09-21 18:10:07.6446 | E:\github\C-com\Plc\Plc\bin\Debug\ 
+2020-09-21 18:10:07.6446 | 加载成功 
+2020-09-21 18:10:07.6696 | 线程System.UnauthorizedAccessException: 对端口“COM4”的访问被拒绝。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 Plc.Program.Com_Main() 
+2020-09-21 18:10:25.7304 | 线程开始！ 
+2020-09-21 18:10:25.7304 | com线程 
+2020-09-21 18:10:25.7414 | plc线程 
+2020-09-21 18:10:25.7414 | XML读取线程 
+2020-09-21 18:10:25.7414 | E:\github\C-com\Plc\Plc\bin\Debug\ 
+2020-09-21 18:10:25.7414 | 加载成功 
+2020-09-21 18:10:31.2462 | com读取线程 
+2020-09-21 18:10:31.3482 | 总成条码471000116700000L80831192250029 
+2020-09-21 18:10:31.3482 | PDA线程 
+2020-09-21 18:10:31.5310 | L80 
+2020-09-21 18:12:08.6668 | com读取线程 
+2020-09-21 18:12:08.7687 | PDA线程 
+2020-09-21 18:12:08.7687 | 总成条码471000116700000L80831192250029 
+2020-09-21 18:12:08.7687 | L80 

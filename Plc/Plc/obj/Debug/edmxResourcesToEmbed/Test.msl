@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TestStoreContainer" CdmEntityContainer="TestContainer">
+    <EntitySetMapping Name="T_TestSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Test.T_Test)">
+        <MappingFragment StoreEntitySet="T_TestSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="D600" ColumnName="D600" />
+          <ScalarProperty Name="D610" ColumnName="D610" />
+          <ScalarProperty Name="D620" ColumnName="D620" />
+          <ScalarProperty Name="D640" ColumnName="D640" />
+          <ScalarProperty Name="D660" ColumnName="D660" />
+          <ScalarProperty Name="D670" ColumnName="D670" />
+          <ScalarProperty Name="D816" ColumnName="D816" />
+          <ScalarProperty Name="D818" ColumnName="D818" />
+          <ScalarProperty Name="D820" ColumnName="D820" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="M1007" ColumnName="M1007" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

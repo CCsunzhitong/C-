@@ -1,0 +1,22 @@
+2020-10-28 18:26:54.0918 | 线程开始！ 
+2020-10-28 18:26:54.2167 | com线程 
+2020-10-28 18:26:55.1854 | 线程System.IO.IOException: 端口“COM4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 Plc.Program.Com_Main() 位置 E:\github\C-com\Plc\Plc\Program.cs:行号 88 
+2020-10-28 18:26:55.6072 | plc线程 
+2020-10-28 18:26:56.3103 | XML读取线程 
+2020-10-28 18:26:56.3103 | E:\github\C-com\Plc\Plc\bin\Debug\ 
+2020-10-28 18:26:57.3259 | 加载成功 
+2020-10-28 18:39:11.5125 | 线程开始！ 
+2020-10-28 18:39:11.8406 | com线程 
+2020-10-28 18:39:13.0749 | 线程System.IO.IOException: 端口“COM4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 Plc.Program.Com_Main() 位置 E:\github\C-com\Plc\Plc\Program.cs:行号 88 
+2020-10-28 18:39:13.5280 | plc线程 
+2020-10-28 18:39:13.8717 | XML读取线程 
+2020-10-28 18:39:13.8717 | E:\github\C-com\Plc\Plc\bin\Debug\ 
+2020-10-28 18:39:14.0279 | 加载成功 

@@ -1,0 +1,33 @@
+2020-10-24 08:51:11.1408 | 线程开始！ 
+2020-10-24 08:51:11.1408 | com线程 
+2020-10-24 08:51:11.5939 | 线程System.IO.IOException: 端口“COM4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 Plc.Program.Com_Main() 位置 E:\github\C-com\Plc\Plc\Program.cs:行号 88 
+2020-10-24 08:51:11.5939 | plc线程 
+2020-10-24 08:51:11.5939 | XML读取线程 
+2020-10-24 08:51:11.5939 | E:\github\C-com\Plc\Plc\bin\Debug\ 
+2020-10-24 08:51:12.0313 | 加载成功 
+2020-10-24 09:31:54.7321 | 线程开始！ 
+2020-10-24 09:31:54.7321 | com线程 
+2020-10-24 09:31:55.0603 | 线程System.IO.IOException: 端口“COM4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 Plc.Program.Com_Main() 位置 E:\github\C-com\Plc\Plc\Program.cs:行号 88 
+2020-10-24 09:31:55.0759 | plc线程 
+2020-10-24 09:31:55.0759 | XML读取线程 
+2020-10-24 09:31:55.0759 | E:\github\C-com\Plc\Plc\bin\Debug\ 
+2020-10-24 09:31:55.1228 | 加载成功 
+2020-10-24 10:20:45.0175 | 线程开始！ 
+2020-10-24 10:20:45.0175 | com线程 
+2020-10-24 10:20:45.4706 | 线程System.IO.IOException: 端口“COM4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 Plc.Program.Com_Main() 位置 E:\github\C-com\Plc\Plc\Program.cs:行号 88 
+2020-10-24 10:20:45.4863 | plc线程 
+2020-10-24 10:20:45.4863 | XML读取线程 
+2020-10-24 10:20:45.4863 | E:\github\C-com\Plc\Plc\bin\Debug\ 
+2020-10-24 10:20:45.5644 | 加载成功 

@@ -1,0 +1,13 @@
+﻿正在安装程序集“E:\github\C-com\Plc\Plc\bin\Debug\Plc.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\github\C-com\Plc\Plc\bin\Debug\Plc.InstallLog
+   assemblypath = E:\github\C-com\Plc\Plc\bin\Debug\Plc.exe
+正在安装服务 PlcService...
+已成功安装服务 PlcService。
+正在日志 Application 中创建 EventLog 源 PlcService...
+正在提交程序集“E:\github\C-com\Plc\Plc\bin\Debug\Plc.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\github\C-com\Plc\Plc\bin\Debug\Plc.InstallLog
+   assemblypath = E:\github\C-com\Plc\Plc\bin\Debug\Plc.exe

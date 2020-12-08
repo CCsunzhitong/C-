@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ATRS_QUALModelStoreContainer" CdmEntityContainer="ATRS_QUALEntities">
+    <EntitySetMapping Name="CODE_RECORED">
+      <EntityTypeMapping TypeName="ATRS_QUALModel.CODE_RECORED">
+        <MappingFragment StoreEntitySet="CODE_RECORED">
+          <ScalarProperty Name="RECORED_TIME" ColumnName="RECORED_TIME" />
+          <ScalarProperty Name="CAR_TYPE" ColumnName="CAR_TYPE" />
+          <ScalarProperty Name="STATION_SQ" ColumnName="STATION_SQ" />
+          <ScalarProperty Name="CHR_HYP" ColumnName="CHR_HYP" />
+          <ScalarProperty Name="INT_SEQ" ColumnName="INT_SEQ" />
+          <ScalarProperty Name="INT_KAISOU_LVL" ColumnName="INT_KAISOU_LVL" />
+          <ScalarProperty Name="CHR_HYP_PARN" ColumnName="CHR_HYP_PARN" />
+          <ScalarProperty Name="CHR_HYP_PS" ColumnName="CHR_HYP_PS" />
+          <ScalarProperty Name="CHR_NUB_HYP_LOT" ColumnName="CHR_NUB_HYP_LOT" />
+          <ScalarProperty Name="NUM_TORIGIKI_SU" ColumnName="NUM_TORIGIKI_SU" />
+          <ScalarProperty Name="INT_NUB_HIKITORI_KANB" ColumnName="INT_NUB_HIKITORI_KANB" />
+          <ScalarProperty Name="NUM_USED" ColumnName="NUM_USED" />
+          <ScalarProperty Name="NUM_SUR_USE_HYP_PARN" ColumnName="NUM_SUR_USE_HYP_PARN" />
+          <ScalarProperty Name="NUM_SUR_USE_HYP_PS" ColumnName="NUM_SUR_USE_HYP_PS" />
+          <ScalarProperty Name="CHR_KBN_ERROR" ColumnName="CHR_KBN_ERROR" />
+          <ScalarProperty Name="INT_SQ" ColumnName="INT_SQ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

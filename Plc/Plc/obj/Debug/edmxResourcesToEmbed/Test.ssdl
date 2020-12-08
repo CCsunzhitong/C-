@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Test.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="TestStoreContainer">
+    <EntitySet Name="T_TestSet" EntityType="Test.Store.T_TestSet" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="T_TestSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="D600" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="D610" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="D620" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="D640" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="D660" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="D670" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="D816" Type="real" Nullable="false" />
+    <Property Name="D818" Type="real" Nullable="false" />
+    <Property Name="D820" Type="real" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="M1007" Type="bit" Nullable="false" />
+  </EntityType>
+</Schema>
