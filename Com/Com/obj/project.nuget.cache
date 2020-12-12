@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "78S0oCL1Hth0JB978lESbF1oOH26MQuWxhzVPiwuICSKsxXeR22TjFbRIeN8QyaTheUjJuwpDzRGrUBVx5YahA==",
+  "dgSpecHash": "UaF3OKA9rDWwTIwdjUZ7h0vKp4i48jD7dOA+LQEZgSBC+C+bAELQXCBF7uJzx/9h3Ruc3t2GUwnz7X+PU4GUUQ==",
   "success": true,
-  "projectFilePath": "E:\\github\\C-com\\Com\\Com\\Com.csproj",
+  "projectFilePath": "E:\\github\\C-\\Com\\Com\\Com.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lushunjie\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\lushunjie\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

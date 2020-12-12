@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\github\\C-com\\Com\\Com\\Com.csproj": {}
+    "E:\\github\\C-\\Com\\Com\\Com.csproj": {}
   },
   "projects": {
-    "E:\\github\\C-com\\Com\\Com\\Com.csproj": {
+    "E:\\github\\C-\\Com\\Com\\Com.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\github\\C-com\\Com\\Com\\Com.csproj",
+        "projectUniqueName": "E:\\github\\C-\\Com\\Com\\Com.csproj",
         "projectName": "Com",
-        "projectPath": "E:\\github\\C-com\\Com\\Com\\Com.csproj",
+        "projectPath": "E:\\github\\C-\\Com\\Com\\Com.csproj",
         "packagesPath": "C:\\Users\\lushunjie\\.nuget\\packages\\",
-        "outputPath": "E:\\github\\C-com\\Com\\Com\\obj\\",
+        "outputPath": "E:\\github\\C-\\Com\\Com\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
